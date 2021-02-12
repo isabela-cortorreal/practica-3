@@ -4,19 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio4
+namespace Ejercicio3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Ejercicio 4
-            
-            char abc;
+            Console.WriteLine("Primeros 10 números pares a partir del producto de (10 x 10)");
 
-            for (abc = 'Z'; abc >= 'A'; abc--)
+            for (int i = 100; i <= 118; i = i + 2)
             {
-                Console.WriteLine("{0}", abc);
+                Console.WriteLine(i + "\n");
             }
             Console.ReadKey();
         }
